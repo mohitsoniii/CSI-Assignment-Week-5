@@ -12,7 +12,7 @@ conn.on('open', ()=>{
 })
 
 app.get('/', (req, res)=>{
-    res.send("Hello, You are on the Home Page.")
+    res.send("Hello, You are on the Book Management Home Page.")
 })
 
 const bookRoutes = require('./routes/bookRoutes');
